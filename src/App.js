@@ -6,6 +6,7 @@ import Clear from './components/Clear';
 import { useState } from 'react';
 import { evaluate } from 'mathjs';
 import swal from 'sweetalert';
+import Logo from './components/Logo'
 
 
 function App() {
@@ -31,12 +32,7 @@ function App() {
 
   return (
     <div className='App'>
-      <div className='logo-contenedor'>
-        <img 
-          src={logo}
-          className='logo'
-          alt='Logo' />
-      </div>
+      <Logo />
       <div className='contenedor-calculadora'>
         <Pantalla input={input}/>
         <div className='fila'>
