@@ -1,5 +1,4 @@
 import './App.css';
-import logo from './img/logo.png';
 import Boton from './components/Boton';
 import Pantalla from './components/Pantalla';
 import Clear from './components/Clear';
